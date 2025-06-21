@@ -1,4 +1,36 @@
+body {
+  font-family: sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.strain-card {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+footer {
+  background-color: #1e1e1e;
+  padding: 10px;
+  text-align: center;
+}
 body {
     background: #0f2f1f;
     font-family: Arial, sans-serif;
